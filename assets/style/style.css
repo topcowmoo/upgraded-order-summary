@@ -1,0 +1,70 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 900
+
+.red-hat display-<uniquifier> {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* styles.css */
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("../images/pattern-background-desktop.svg") no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-content,
+  svg {
+    width: 100%; /* Set the width to 100% to match the card */
+  }
+  
+  svg {
+    fill: #FFF;
+  }
+
+  #annual-plan-box {
+    border: 1px solid black;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn-primary {
+    align-items: center;
+    padding: 10px 90px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 7px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .plan {
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 12px;
+    margin-top: 45px;
+    font-weight: 700;
+  }
